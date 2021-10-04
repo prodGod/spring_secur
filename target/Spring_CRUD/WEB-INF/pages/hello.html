@@ -24,11 +24,12 @@
     </div>
     <br/>
     <div>
+
         <sec:authorize access="isAuthenticated()">
             <input type="button" value="Log out"
                    onclick="window.location.href='/logout'">
         </sec:authorize>
     </div>
-</div>
+
 </body>
 </html>
